@@ -1,0 +1,10 @@
+#!/bin/sh
+
+case "$1" in
+    purge|remove)
+		dpkg-divert --remove --rename /usr/bin/apturl
+		dpkg-divert --remove --rename /usr/bin/apturl-gtk
+        ;;
+    *)
+    ;;
+esac

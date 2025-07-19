@@ -1,0 +1,78 @@
+captain (1.0.5mauna1) mauna; urgency=medium
+
+  * New upstream release
+  * l10n: Update pt_BR translation
+
+ -- Mauna Linux <dev@maunalinux.top>  Sat, 19 Jul 2025 16:43:05 -0300
+
+captain (1.0.5) xia; urgency=medium
+
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 06 Jan 2025 13:58:10 +0000
+
+captain (1.0.4) xia; urgency=medium
+
+  * Fix opening .deb files with spaces in their path
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 05 Jan 2025 09:58:42 +0000
+
+captain (1.0.3) xia; urgency=medium
+
+  * Fix exception for .deb files missing an "Installed-Size"
+  * Fix and simplify version/candidate check
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 16 Dec 2024 13:33:05 +0000
+
+captain (1.0.2) xia; urgency=medium
+
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 05 Dec 2024 10:36:17 +0000
+
+captain (1.0.1) xia; urgency=medium
+
+  [ Clement Lefebvre ]
+  * Remove unused code
+  * Clean up UI
+  * Round pkg size
+  * l10n: Generate POT file
+  * test: Add path argument
+  * Remove unnecessary warning
+  * l10n: Also parse desktop file
+
+  [ Fabio Fantoni ]
+  * Improve Debian packaging (#3)
+
+  [ Clement Lefebvre ]
+  * Update README
+  * Add a handler for apt:// mime
+  * Add a few checks for URL handler
+  * Implement pkg installation for url handler
+  * Reduce variable scope
+  * Implement error messages
+  * Update README
+  * Improve details dialog
+  * l10n: Update POT
+  * Update README
+  * README: Don't recommend to call captain directly for apt:// url
+  * Divert apturl
+  * Depend on python3-aptdaemon
+  * UI improvements
+  * .gitignore: Ignome all .ui~ files
+  * Switch from mintcommon.aptdaemon to aptkit.simpleclient
+  * url handler: Don't help the resolver
+
+  [ Garrett Howard ]
+  * README: Fix typos (#4)
+
+  [ Clement Lefebvre ]
+  * packaging: Don't remove diversions during upgrade
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 20 Nov 2024 15:44:33 +0000
+
+captain (1.0.0) wilma; urgency=medium
+
+  * Initial version
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 03 Sep 2024 11:57:00 -0000
